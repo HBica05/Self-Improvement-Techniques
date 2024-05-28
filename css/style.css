@@ -1,52 +1,200 @@
-body {
-    background-color: #586F7C;
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/* Asterisk wildcart selector to override default styles added by the browser */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ body {
+    background-color: #f3f5f7;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Lato' , sans-serif;
+  }
+  h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    text-decoration: none;
+  }
+  header 
+  {
+    background-color: rgb(249, 160, 87) ;
+    padding: 20px;
+    position: fixed;
+    z-index: 99;
+    width:100%;
+    box-shadow: 0 2px 2px #853737;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
   }
   @media screen and (min-width: 768px) {
-    .container {
-      display: flex;
-      width: 100%;
-      max-width: 1080px;
-      background-color: #019;
-      position: relative;
-    }
-    .main-heading {
-      font-size: 280%;
-      float: left;
-      margin-left: 30px;
-    }
+    
+   
+    .heading-container{
+      font-family: Oswald, sans-serif;
+      
+      text-decoration: none;
+     
+    
+      padding-top: 0px;
+      
+      
+    
+     }
   }
   
+  main{
+    
+    /*Make any main element to take any surplus space to push the footer down*/
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+  #meditation_image{
+    display: block;
+    height: 600px;
+    width: 100%;
+    background: url("../images/meditation_image.jpg") no-repeat center center/cover;
+    position: relative;
+    top:0%;
+    margin-top: 0%;
+   
+
+  }
  
   
+  #image_inblock{
+   
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
   
+  #cover-text1 {
+
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(193, 134, 133, 0.7);
+
+    top: 80px;
+    left: 300px;
+    right: 50px;
+
+    position: absolute;
+    text-align: center;
+    
+
+  }
+  #cover-text2 {
+
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    
   
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 280px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(193, 134, 133, 0.7);
+
+    top: 80px;
+    left: 900px;
+
+    position: absolute;
+    text-align: center;
+    
+
+  }
+  #cover-text3 {
+
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 320px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(193, 134, 133, 0.7);
+    top: 200px;
+    bottom: 100px;
+    left: 600px;
+
+    position: absolute;
+    text-align: center;
+    
+
+  }
+   
+
+  /*Main content */
+  main{
+    
+    /*Make any main element to take any surplus space to push the footer down*/
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/* Media query: tablets and larger (768px and up) */
+
+  
+
   /* from w3schools */
   /* Add a black background color to the top navigation */
-  .topnav {
-    background-color: #010001;
-    background-color: ;
-    overflow: hidden;
-  }
-  
+
+ /*Nav Bar*/
+ #nav-bar:checked~nav{
+  display: block;
+}
+.nav-toggle {
+  display: none;
+}
+
+ 
   /* Style the links inside the navigation bar */
  
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .nav-bar a:hover {
     background-color: #ddd;
     color: black;
   }
   
   /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #387780;
-    color: white;
-  }
+ 
   
   /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
+#menu {
+    list-style-type: none;
   }
+  
+
+
   
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 600px) {
@@ -73,4 +221,23 @@ body {
       text-align: left;
     }
   }
-  /* end of w3 schools */
+  
+
+  /* Footer */
+#social-networks {
+  text-align:center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+}
+.active
+{
+    border-bottom: 1px solid black;
+
+}

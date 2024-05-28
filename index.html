@@ -5,46 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Self-improvement, Self-help, Self-growth Guide, Guides for Self-growth">
   <meta name="keywords" content="improvement, improve, growth, grow">
-
-  <!--Add a favicon file!!!-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   
-  <title>Self Improvement</title>
-  <link href="" rel="icon" type="">
-
-
-
+  <!--Title-->
   <link rel="stylesheet" href="assets/css/style.css">
+  <title>Self-Improvement</title>
+
+  <!--Add a favicon file here below!!!-->
+  <link rel="icon" type="image/svg" href="assets/favicon/hand-icon.svg">
+
   <!-- from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <link rel="stylesheet" href="">
-  <!-- end of w3 schools -->
+  <!--Add the image link here--> 
+  <img src="meditation_image.jpg" alt="Meditation image" class="meditation_image" width="500" height="600">
+  
 </head>
 <body>
-  <Header>
-    <h1 class="main-heading">Welcome HB-Improvement</h1>
-    <h4>The only self-improvement guide you need!</h4>
-  <div class="container">
-    <!-- from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+
+<!--Header-->
+    <Header>
+        <a href="index.html">
+            <h1 id="heading-container">ElevateU</h1>
+            <h3>The only self-improvement guide you need!</h3>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+           
+        
+
+            <i class="fa-thin fa-hand-holding-droplet"></i>
+        </label>
+        <nav>
+            <span>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        
+            </span>
       
+        </nav>
+    
+    </Header>
+      <!--Main content-->
+ 
+    <section id="image_inblock">
+        <div id="meditation_image"></div>
+            <div id="cover-text3">
+            <h4>Self-awareness</h4>
+            <p>Self-awareness is crucial for self-improvement. It entails recognizing your emotions, thoughts, strengths, weaknesses, values, and motivations. Developing self-awareness enables you to pinpoint areas for growth and make informed decisions. Mindfulness, journaling, and seeking feedback enhance self-awareness.</p></div>
+            
+            <div id="cover-text1">
+            <h4>Continuous learning</h4>
+            <p>Continuous learning fuels personal growth. Embrace chances to gain new knowledge, skills, and perspectives. This includes formal education, reading, workshops, online courses, and learning from mentors. Stay curious, open-minded, and seek opportunities to broaden expertise.</p>
+            </div>
+            
+            <div id="cover-text2">
+            <h4>Action and perseverance</h4>
+            <p>Consistent action is key for goal achievement. Set clear objectives and break them into manageable steps. Embrace challenges as growth opportunities, fostering resilience and perseverance. Self-improvement is a journey requiring dedication and persistence.</p>
+            </div>
+        </div>
+    </section>
+  
        
-      </a>
-    </div>
-  </Header>
-    <!-- end of w3 schools -->
-    
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                     aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Instagram page (opensin a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
 
-    <!-- your content goes in here -->
+    </footer>
+<!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/b365637acf.js" crossorigin="anonymous"></script>
+    </script>
+  
     
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon --> 
 
-    
-  </div>
-  <script>
-  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    
-    
-</script>
 </body>
+
 </html>
