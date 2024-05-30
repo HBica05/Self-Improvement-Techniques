@@ -5,69 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Self-improvement, Self-help, Self-growth Guide, Guides for Self-growth">
   <meta name="keywords" content="improvement, improve, growth, grow">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!--Title-->
-  <link rel="stylesheet" href="assets/css/style.css">
   <title>Self-Improvement</title>
-
   <!--Add a favicon file here below!!!-->
   <link rel="icon" type="image/svg" href="assets/favicon/hand-icon.svg">
-
   <!-- from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <!--Add the image link here--> 
-  <img src="meditation_image.jpg" alt="Meditation image" class="meditation_image" width="500" height="600">
-  
 </head>
 <body>
-
+<div class="container">
 <!--Header-->
     <Header>
         <a href="index.html">
+            <div id="head-title">
             <h1 id="heading-container">ElevateU</h1>
             <h3>The only self-improvement guide you need!</h3>
+            </div>
         </a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
-           
-        
-
             <i class="fa-thin fa-hand-holding-droplet"></i>
         </label>
         <nav>
             <span>
+                <!--From W3 Schools-->
+               
+                
+                <!--End of W3 School-->
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!-- Add icon library -->
+                <!--From W3 Schools-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="icon-bar">
+                <li><a class="active" href="index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href="contact.html"><i class="fa fa-phone"></i></a></li>
+                <li><a href="about.html"><i class="fa fa-question"></i></a></li>
+            </div>
             </ul>
-        
             </span>
-      
         </nav>
-    
     </Header>
+    <img src="assets/images/motiv._quote.jpg" alt="Motivational quote" class="motiv._quote">
       <!--Main content-->
  
-    <section id="image_inblock">
-        <div id="meditation_image"></div>
-            <div id="cover-text3">
+    <section class="three-column-grid">
+        <div class="cover-card">
             <h4>Self-awareness</h4>
-            <p>Self-awareness is crucial for self-improvement. It entails recognizing your emotions, thoughts, strengths, weaknesses, values, and motivations. Developing self-awareness enables you to pinpoint areas for growth and make informed decisions. Mindfulness, journaling, and seeking feedback enhance self-awareness.</p></div>
-            
-            <div id="cover-text1">
+            <p>Self-awareness is crucial for self-improvement. It entails recognizing your emotions, thoughts, strengths, weaknesses, values, and motivations. Developing self-awareness enables you to pinpoint areas for growth and make informed decisions. Mindfulness, journaling, and seeking feedback enhance self-awareness.</p>
+        </div>
+        <div class="cover-card">
             <h4>Continuous learning</h4>
             <p>Continuous learning fuels personal growth. Embrace chances to gain new knowledge, skills, and perspectives. This includes formal education, reading, workshops, online courses, and learning from mentors. Stay curious, open-minded, and seek opportunities to broaden expertise.</p>
-            </div>
-            
-            <div id="cover-text2">
+        </div>
+        <div class="cover-card">
             <h4>Action and perseverance</h4>
             <p>Consistent action is key for goal achievement. Set clear objectives and break them into manageable steps. Embrace challenges as growth opportunities, fostering resilience and perseverance. Self-improvement is a journey requiring dedication and persistence.</p>
-            </div>
         </div>
     </section>
-  
-       
+     
     <footer>
         <ul id="social-networks">
             <li>
@@ -78,21 +73,14 @@
                 <a href="https://www.twitter.com/" target="_blank" rel="noopener"
                     aria-label="visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
             <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="visit our Instagram page (opensin a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+                <a href="https://www.github.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Instagram page (opensin a new tab)"><i class="fa-brands fa-github"></i></a></li>
         </ul>
-
     </footer>
+  </div>
 <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/b365637acf.js" crossorigin="anonymous"></script>
     </script>
-  
-    
 <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon --> 
-
 </body>
-
 </html>
