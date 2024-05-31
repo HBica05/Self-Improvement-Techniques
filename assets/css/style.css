@@ -28,16 +28,33 @@
   #menu {
     list-style-type: none;
   }
-.head-title
+  .fa-home
+  {
+   position: absolute;
+   margin-left: 150px; 
+  }
+  .fa-book
+  {
+   position: absolute;
+   margin-left: 200px; 
+  }
+  .fa-question
+  {
+   position: absolute;
+   margin-left: 250px; 
+  }
+.head-title,h1,h3 
 {
   position: relative;
-  margin-left: 80px;
+  margin-left: 250px;
+  margin-right: 150px;
 }
   @media screen and (min-width: 768px) {
     .heading-container{
       font-family: Oswald, sans-serif;
       text-decoration: none;
       padding-top: 0px;
+      text-align: center;
      }
   }
 
@@ -145,11 +162,6 @@
   padding: 5%;
   color: #3a3a3a;
 }
-.active
-{
-    border-bottom: 1px solid black;
-}
-
 /*About page From W3 schools*/
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -208,7 +220,6 @@ html {
 .button:hover {
   background-color: #555;
 }
-
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -216,6 +227,19 @@ html {
   }
 }
 /*End of W3 Schools*/
+/*Media query for mobile phones*/
+@media (min-width: 380px) and (max-width: 650px) {
+  .head-title,h1,h3
+  {
+    font-size: 15px;
+    position: relative;
+    margin-right: 150px;
+  }
+  .fa-home {
+    position: relative;
+    margin-right: 70px;
+  }
 
+  }
 
 
