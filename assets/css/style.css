@@ -55,14 +55,22 @@
 
 }
 .meditation.img{
-  display: inline-block;
+    display: inline-block;
     height: auto;
     width: 90%;
     background: url("../images/meditation_image.jpg") no-repeat center center/cover;
     position: absolute;
     top: 20px;
     left: 350px;
-
+}
+.books.img{
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    background: url("../images/books_image.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 20px;
+    left: 350px;
 }
 .three-column-grid {
     width: 100%;
