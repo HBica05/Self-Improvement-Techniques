@@ -82,13 +82,13 @@ main{
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
+  z-index: 1000;
 }
 .books.img{
     display: block;
     height: auto;
     width: 90%;
     background: url("../images/books_image.jpg") no-repeat center center/cover;
-    position: fixed; 
 }
 .image2
 {
@@ -114,7 +114,11 @@ main{
   padding-right: 50px;
   margin-top: 0rem;
   background-color: rgb(235, 229, 229);
+ 
   margin-left:auto;
+  position: relative;
+  bottom: 975px;
+  left:900px;
 }
 .cover-card2{
   padding: 50px;
@@ -125,7 +129,11 @@ main{
   margin-left: 500px;
   margin-right: auto;
   margin-top:10px ;
-  position: center;
+  
+  position: relative;
+  bottom: 480px;
+  right: 500px;
+
 }
 .cover-card3{
   padding: 20px;
