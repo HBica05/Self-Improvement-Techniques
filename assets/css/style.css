@@ -2,7 +2,7 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
 }
  body {
     background-color: white;
@@ -57,8 +57,7 @@
       text-align: center;
      }
   }
-
-  main{
+main{
     /*Make any main element to take any surplus space to push the footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -69,40 +68,70 @@
     width: 90%;
     background: url("../images/motiv._quote.jpg") no-repeat center center/cover;
     position: relative;
-
+    background-attachment: fixed;
+    background-position: center;
 }
 .meditation.img{
-    display: inline-block;
-    height: auto;
-    width: 90%;
-    background: url("../images/meditation_image.jpg") no-repeat center center/cover;
-    position: absolute;
-    top: 20px;
-    left: 350px;
+    display: block;
+    width: 50%;
+    background: url("../images/meditation_image.jpg") no-repeat center center/cover;  
+}
+.image1
+{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 .books.img{
-    display: inline-block;
+    display: flex;
     height: auto;
     width: 90%;
     background: url("../images/books_image.jpg") no-repeat center center/cover;
-    position: absolute;
-    top: 20px;
-    left: 350px;
+    position: fixed; 
+}
+.image2
+{
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
 }
 .three-column-grid {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.cover-card {
-    padding: 20px;
-    background-color: rgba(189, 182, 46, 0.571);
-    color: #fff;
-}
-.cover-card2 {
-  padding: 20px;
-  background-color: rgb(235, 229, 229);
+.cover-card{
   color: #000000;
+  padding: 20px;
+  background-color: rgba(189, 182, 46, 0.571);
+  color: #fff;
+}
+.cover-card1{
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(235, 229, 229);
+  
+}
+.cover-card2{
+  padding: 100px;
+  padding-left: 100px;
+  padding-right: 50px;
+  background-color: rgb(235, 229, 229);
+  
+  float: left;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top:10px ;
+}
+.cover-card3{
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(235, 229, 229);
+  
 }
 .three-column-grid2 {
   width: 100%;
@@ -176,15 +205,20 @@ html {
 }
 
 .column {
-  float: left;
+  float: center;
   width: 33.3%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  margin: 50px 500px;
+  padding: 10px 20px;
+  position: relative;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .about-section {
@@ -203,18 +237,6 @@ html {
 .title {
   color: grey;
   text-align: center;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
 }
 
 .button:hover {
@@ -237,9 +259,16 @@ html {
   }
   .fa-home {
     position: relative;
-    margin-right: 70px;
+    margin-left: 150px;
   }
-
+  .fa-book {
+  position: relative;
+  margin-left: 200px;
   }
+  .fa-question{
+  position: relative;
+  margin-left: 250px;
+  } 
+ }
 
 
