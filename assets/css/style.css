@@ -73,7 +73,7 @@ main{
 }
 .meditation.img{
     display: block;
-    width: 50%;
+    width: auto;
     background: url("../images/meditation_image.jpg") no-repeat center center/cover;  
 }
 .image1
@@ -81,10 +81,10 @@ main{
   float: left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 .books.img{
-    display: flex;
+    display: block;
     height: auto;
     width: 90%;
     background: url("../images/books_image.jpg") no-repeat center center/cover;
@@ -95,7 +95,7 @@ main{
   float: right;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 250px;
+  margin-top: 650px;
 }
 .three-column-grid {
     width: 100%;
@@ -112,26 +112,30 @@ main{
   padding: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-top: 0rem;
   background-color: rgb(235, 229, 229);
-  
+  margin-left:auto;
 }
 .cover-card2{
-  padding: 100px;
-  padding-left: 100px;
-  padding-right: 50px;
+  padding: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: rgb(235, 229, 229);
   
-  float: left;
   margin-left: 500px;
-  margin-right: 500px;
+  margin-right: auto;
   margin-top:10px ;
+  position: center;
 }
 .cover-card3{
-  padding: 50px;
+  padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
   background-color: rgb(235, 229, 229);
   
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 10px;
 }
 .three-column-grid2 {
   width: 100%;
@@ -185,6 +189,7 @@ main{
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  float: bottom;
   }
 #social-networks i {
   font-size: 160%;
