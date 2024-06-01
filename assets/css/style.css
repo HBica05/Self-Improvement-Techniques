@@ -21,7 +21,7 @@
     background-color: rgb(236, 255, 212) ;
     padding: 20px;
     z-index: 99;
-    width:100%;
+    width: auto;
     display: flex;
     justify-content: center;
   }
@@ -60,7 +60,7 @@
 main{
     /*Make any main element to take any surplus space to push the footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 800px;
 }
 .motiv._quote{
     display: inline-block;
