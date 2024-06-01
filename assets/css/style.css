@@ -96,6 +96,9 @@ main{
   margin-left: auto;
   margin-right: auto;
   margin-top: 650px;
+
+  position: relative;
+  top: 400px;
 }
 .three-column-grid {
     width: 100%;
@@ -107,6 +110,7 @@ main{
   padding: 20px;
   background-color: rgba(189, 182, 46, 0.571);
   color: #fff;
+  font-size: larger;
 }
 .cover-card1{
   padding: 50px;
@@ -117,38 +121,43 @@ main{
  
   margin-left:auto;
   position: relative;
-  bottom: 975px;
+  bottom: 990px;
   left:900px;
 }
 .cover-card2{
   padding: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: rgb(235, 229, 229);
+  background-color: rgb(203, 196, 196);
   
-  margin-left: 500px;
+  margin-left: autopx;
   margin-right: auto;
   margin-top:10px ;
   
   position: relative;
-  bottom: 480px;
+  bottom: 920px;
   right: 500px;
-
+  left: 25px;
 }
 .cover-card3{
-  padding: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
   background-color: rgb(235, 229, 229);
   
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+
+  position: relative;
+  bottom: 800px;
+  right: 300px;
 }
 .three-column-grid2 {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  font-size: larger;
 }
  /*Nav Bar*/
 #nav-bar:checked~nav{
