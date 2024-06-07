@@ -30,13 +30,13 @@
     display:inline-block;
     justify-content: center;
   }
-  /* Remove underline from links in the header */
+
 header a {
   text-decoration: none;
 }
-/* Optional: Adding some hover effect to the links */
+
 header a:hover {
-  text-decoration: underline; /* Or any other style you prefer for hover */
+  text-decoration: underline; 
 }
 #heading-container {
   text-align: center;
@@ -49,30 +49,29 @@ header a:hover {
     max-width: 1200px;
     margin: 0 auto;
   }
-  #menu {
+  .menu {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
   }
-  #menu ul {
+  .menu ul {
     padding-inline-start: 0;
   }
-  #menu li {
+  .menu li {
     display: inline-block;
-    margin-right: 20px; /* Adjust spacing between items as needed */
+    margin-right: 20px; 
   }
   
-  #menu li a {
+  .menu li a {
     text-decoration: none;
     color: inherit;
   }
   
-  #menu li a:hover {
-    text-decoration: underline; /* Optional hover effect */
+  .menu li a:hover {
+    text-decoration: underline; 
   }
   
-  /* Optional: Adding some hover effect to the icons */
   .icon-bar li a:hover {
     background-color: #ddd;
     color: black;
@@ -98,7 +97,6 @@ header a:hover {
   }
   
 main{
-    /*Make any main element to take any surplus space to push the footer down*/
     flex: 1 0 auto;
     margin-top: 800px;
 }
@@ -195,24 +193,24 @@ main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: larger;
+
 }
- /*Nav Bar*/
+ 
 #nav-bar:checked~nav{
   display: block;
 }
 .nav-toggle {
   display: none;
 }
-  /* Style the links inside the navigation bar */ 
-  /* Change the color of links on hover */
+  
 .nav-bar a:hover {
     background-color: #ddd;
     color: black;
   }
-  /* Adjusting the nav section icons */
+ 
 .icon-bar {
   display: flex;
-  justify-content: space-around; /* Distributes icons evenly across the width */
+  justify-content: space-around; 
   align-items: center;
   width: 100%;
 }
@@ -224,16 +222,15 @@ main{
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 2rem; /* Adjusts the icon size */
+  font-size: 2rem; 
   padding: 20px;
 }
-/* Optional: Adding some hover effect to the icons */
+
 .icon-bar li a:hover {
   background-color: #ddd;
   color: black;
 }
   
-  /* Footer */
 footer p {
   text-align: center;
   text-transform: lowercase;
@@ -243,7 +240,7 @@ footer p {
 #year {
   font-size: .9rem;;
 }
-/*About page From W3 schools*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -263,7 +260,7 @@ html {
   position: relative;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(249, 248, 248, 0.2);
   margin: 20px;
   margin-left: auto;
   margin-right: auto;
