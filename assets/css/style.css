@@ -1,4 +1,4 @@
-/* Asterisk wildcart selector to override default styles added by the browser */
+*CSS*/* Asterisk wildcart selector to override default styles added by the browser */
 *{
   padding: 0;
   margin: 0;
@@ -49,14 +49,7 @@
   margin-left: 250px;
   margin-right: 150px;
 }
-  @media screen and (min-width: 768px) {
-    .heading-container{
-      font-family: Oswald, sans-serif;
-      text-decoration: none;
-      padding-top: 0px;
-      text-align: center;
-     }
-  }
+  
 main{
     /*Make any main element to take any surplus space to push the footer down*/
     flex: 1 0 auto;
@@ -66,7 +59,6 @@ main{
     display: inline-block;
     height: auto;
     width: 90%;
-    background: url("../images/motiv._quote.jpg") no-repeat center center/cover;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -172,32 +164,7 @@ main{
     background-color: #ddd;
     color: black;
   }
-  /* Add an active class to highlight the current page */
- 
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-    .topnav.responsive {
-      position: relative;
-    }
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .three-column-grid {
-      grid-template-columns: 1fr;
-    }
-  }
+  
   
   /* Footer */
 #social-networks {
@@ -264,33 +231,220 @@ html {
 .button:hover {
   background-color: #555;
 }
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #header{
+    position:absolute;
+    text-wrap: nowrap;
+    margin-top: -10px;
+    margin-left: -265px;
   }
-}
-/*End of W3 Schools*/
-/*Media query for mobile phones*/
-@media (min-width: 380px) and (max-width: 650px) {
-  .head-title,h1,h3
-  {
+  #heading-container{
     font-size: 15px;
+  }
+  #heading-container3{
+    font-size:13px;
+    
+  }
+  .icon-bar{
     position: relative;
-    margin-right: 150px;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: -960px;
+
   }
   .fa-home {
     position: relative;
-    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
   }
   .fa-book {
   position: relative;
-  margin-left: 200px;
+  margin-top:50px;
+  margin-left: 260px;
   }
   .fa-question{
   position: relative;
-  margin-left: 250px;
+  margin-bottom: 30px;
+  margin-left: 370px;
   } 
- }
+  .motiv._quote{
+    position: absolute;
+    top: -64px;
+    left: 100%;
+  }
+  .three-column-grid{
+    position: relative;
+    margin-left: -12px;
+    font-size: 14px;
+  }
+  #social-networks{
+    font-size: 13px;
+  }
 
+    #heading-awareness{
+    font-size: 15px;
+  }
+  #heading-learning{
+    font-size: 15px;
+  }
+  #heading-action{
+    font-size: 15px;
+    
+  } 
 
+}
+
+ @media (min-width: 481px) and (max-width: 768px) {
+  #header{
+    position:absolute;
+    margin-left: -235px;
+    text-wrap: balance;
+    font-size: 14px;
+  }
+  #head-title{
+    margin-left: 70px;
+  }
+  .icon-bar{
+    position: relative;
+    font-size: 14px;
+    margin-top: -33px;
+    margin-left: -620px;
+
+  }
+  .fa-home {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 470px;
+  }
+  .fa-book {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  }
+  .fa-question{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  } 
+  .motiv._quote{
+    position: relative;
+  }
+
+} 
+ @media (min-width: 1025px) and (max-width: 1200px) {
+  #header{
+    position:absolute;
+    margin-left: -235px;
+    text-wrap: balance;
+    font-size: 14px;
+  }
+  #head-title{
+    margin-left: 70px;
+  }
+  .icon-bar{
+    position: relative;
+    font-size: 14px;
+    margin-top: -33px;
+    margin-left: -620px;
+
+  }
+  .fa-home {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 470px;
+  }
+  .fa-book {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  }
+  .fa-question{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  } 
+  .motiv._quote{
+    position: relative;
+  }
+
+}
+  @media (min-width: 1201px) and (max-width: 1700px) {
+  #header{
+    position:absolute;
+    margin-left: -235px;
+    text-wrap: balance;
+    font-size: 14px;
+  }
+  #head-title{
+    margin-left: 70px;
+  }
+  .icon-bar{
+    position: relative;
+    font-size: 14px;
+    margin-top: -33px;
+    margin-left: -620px;
+
+  }
+  .fa-home {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 470px;
+  }
+  .fa-book {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  }
+  .fa-question{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  } 
+  .motiv._quote{
+    position: relative;
+  }
+} 
+ @media (min-width: 481px) and (max-width: 768px) {
+  #header{
+    position:absolute;
+    margin-left: -235px;
+    text-wrap: balance;
+    font-size: 14px;
+  }
+  #head-title{
+    margin-left: 70px;
+  }
+  .icon-bar{
+    position: relative;
+    font-size: 14px;
+    margin-top: -33px;
+    margin-left: -620px;
+
+  }
+  .fa-home {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 470px;
+  }
+  .fa-book {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  }
+  .fa-question{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 470px;
+  } 
+  .motiv._quote{
+    position: relative;
+  }
+
+}
