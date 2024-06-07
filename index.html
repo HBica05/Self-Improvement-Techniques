@@ -6,6 +6,8 @@
   <meta name="description" content="Self-improvement, Self-help, Self-growth Guide, Guides for Self-growth">
   <meta name="keywords" content="improvement, improve, growth, grow">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          
   <!--Title-->
   <title>Self-Improvement</title>
   <!--Add a favicon file here below!!!-->
@@ -13,60 +15,47 @@
   <!-- from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
 </head>
 <body>
-    <div class="container">
+  <div class="wrap">
     <!--Header-->
-        <Header id = "header">
-            <a href="index.html">
-                <div id="head-title">
-                <h1 id="heading-container">ElevateU</h1>
-                <h3 id="heading-container3">The only self-improvement guide you need!</h3>
-                </div>
-            </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-           
-            <nav>
-                <span>
-                <ul id="menu">
+    <header id="header">
+      <a href="index.html">
+        <div id="head-title">
+          <h1 id="heading-container">ElevateU</h1>
+          <h2 id="heading-container3">The only self-improvement guide you need!</h2>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" aria-label="nav toggle" class="nav-toggle">
     
-                    <!--From W3 Schools-->
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <div class="icon-bar">
-                    <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-                    <li><a href="content.html"><i class="fa fa-book"></i></a></li>
-                    <li><a href="about.html"><i class="fa fa-question"></i></a></li>
-                </div>
-                </ul>
-                </span>
-            </nav>
-        </Header>
-            <img src="assets/images/motiv._quote.jpg" alt="Motivational quote" class="motiv._quote">
-         <!--Main content-->
-    
-        <section class="three-column-grid">
-            <div class="cover-card">
-                <h4 id="heading-awareness">Self-awareness</h4>
-                <p>Self-awareness is crucial for self-improvement. It entails recognizing your emotions, thoughts, strengths, weaknesses, values, and motivations. Developing self-awareness enables you to pinpoint areas for growth and make informed decisions. Mindfulness, journaling, and seeking feedback enhance self-awareness.</p>
-           
-            </div>
-            <div class="cover-card">
-                <h4 id="heading-learning">Continuous learning</h4>
-                <p>Continuous learning fuels personal growth. Embrace chances to gain new knowledge, skills, and perspectives. This includes formal education, reading, workshops, online courses, and learning from mentors. Stay curious, open-minded, and seek opportunities to broaden expertise.</p>
-            </div>
-            <div class="cover-card">
-                <h4 id="heading-action">Action and perseverance</h4>
-                <p>Consistent action is key for goal achievement. Set clear objectives and break them into manageable steps. Embrace challenges as growth opportunities, fostering resilience and perseverance. Self-improvement is a journey requiring dedication and persistence.</p>
-            </div>
-        </section>
-        
-        <footer>
-            <ul id="social-networks">
-                <li>
-                    <a href="https://github.com/HBica05" target="_blank" rel="noopener"
-                        aria-label="visit our github page (opensin a new tab)"><i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
+      <nav>
+        <div id="menu">
+          <ul class="icon-bar">
+            <li><a href="index.html" aria-label="Home page link"><i class="fa fa-home"></i></a></li>
+            <li><a href="content.html" aria-label="Knowledge page link"><i class="fa fa-book"></i></a></li>
+            <li><a href="about.html" aria-label="About page link"><i class="fa fa-question"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <img src="assets/images/motiv._quote.jpg" alt="Motivational quote" class="motiv_quote">
+    <!--Main content-->
+    <section class="three-column-grid">
+      <div class="cover-card">
+        <h3 id="heading-awareness">Self-awareness</h3>
+        <p>Self-awareness is crucial for self-improvement. It entails recognizing your emotions, thoughts, strengths, weaknesses, values, and motivations. Developing self-awareness enables you to pinpoint areas for growth and make informed decisions. Mindfulness, journaling, and seeking feedback enhance self-awareness.</p>
       </div>
+      <div class="cover-card">
+        <h3 id="heading-learning">Continuous learning</h3>
+        <p>Continuous learning fuels personal growth. Embrace chances to gain new knowledge, skills, and perspectives. This includes formal education, reading, workshops, online courses, and learning from mentors. Stay curious, open-minded, and seek opportunities to broaden expertise.</p>
+      </div>
+      <div class="cover-card">
+        <h3 id="heading-action">Action and perseverance</h3>
+        <p>Consistent action is key for goal achievement. Set clear objectives and break them into manageable steps. Embrace challenges as growth opportunities, fostering resilience and perseverance. Self-improvement is a journey requiring dedication and persistence.</p>
+      </div>
+    </section>
+    <footer>
+      <p>We don't advise social media for mindfullness!</p>
+      <p>Copyright <span id="year">2024</span> ElevateU</p>
+    </footer>
+  </div>
 </body>
 </html>
