@@ -109,17 +109,21 @@ main{
     background-position: center;
 }
 .meditation.img{
-    display: block;
-    width: auto;
-    background: url("../images/meditation_image.jpg") no-repeat center center/cover;  
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: left; 
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    z-index: 1000;
 }
 .image1
 {
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  z-index: 1000;
+  
 }
 .books.img{
     display: block;
