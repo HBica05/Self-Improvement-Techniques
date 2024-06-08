@@ -115,31 +115,56 @@ main{
     position: relative;
     background-attachment: fixed;
     background-position: left; 
-   
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    z-index: 1000;
+    margin-top: 10px;
 }
-.image1
-{
+.cover-card1{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 1rem;
+  background-color: #312F0C;
+  color: #fff;
+  margin-left:auto;
+  position: relative;
+  top: -1695px;
+  left:800px;
+  }
+
+.cover-card2{
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: #312F0C;
+  color: #fff;
+  margin-left: auto;
   
+  position: relative;
+  bottom: 920px;
+  top: -1500px;
+  left: 25px;
 }
-.books.img{
-    display: block;
-    height: auto;
-    width: 90%;
-    background: url("../images/books_image.jpg") no-repeat center center/cover;
-}
-.image2
-{
-  float: right;
+.cover-card3{
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #312F0C;
+  color: #fff;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 650px;
+  margin-top: 10px;
   position: relative;
-  top: 400px;
+  bottom: 800px;
+  right: 300px;
 }
+.books.img{
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: right;
+}
+
 .three-column-grid {
     width: 100%;
     display: grid;
@@ -152,52 +177,12 @@ main{
   color: #fff;
   font-size: larger;
 }
-.cover-card1{
-  padding: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-top: 0rem;
-  background-color: #312F0C;
- 
-  margin-left:auto;
-  position: relative;
-  bottom: 990px;
-  left:900px;
-}
-.cover-card2{
-  padding: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #312F0C;
-  
-  margin-left: autopx;
-  margin-right: auto;
-  margin-top:10px ;
-  
-  position: relative;
-  bottom: 920px;
-  right: 500px;
-  left: 25px;
-}
-.cover-card3{
-  padding: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background-color: #312F0C;
-  
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  position: relative;
-  bottom: 800px;
-  right: 300px;
-}
+
 .three-column-grid2 {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: larger;
-
 }
  
 #nav-bar:checked~nav{
@@ -288,9 +273,14 @@ html {
 .button:hover {
   background-color: #555;
 }
-/* below 700px */
+
 @media (max-width: 700px) {
   .three-column-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .three-column-grid2 {
     grid-template-columns: 1fr;
   }
 }
