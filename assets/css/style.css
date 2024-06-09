@@ -110,64 +110,13 @@ main{
 }
 
 .meditation.img{
-    display: block;
-    height: auto;
-    width: 50%;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-top: 10px;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center; 
-}
-.cover-card1{
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  height: auto;
   width: 50%;
-  max-width: 90%;
-  background-color: #312F0C;
-  color: #fff;
-  padding: 10px;
-  margin-top: 20px;
   position: relative;
-  top:-800px;
-  padding-left: 50px;
-  padding-right: 10px;
 
-  }
-.container1
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-.cover-card2{
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-  background-color: #312F0C;
-  color: #fff;
-  margin-left: auto;
-  
-  position: relative;
-  bottom: 920px;
-  top: -1500px;
-  left: 25px;
 }
-.cover-card3{
-  padding: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background-color: #312F0C;
-  color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  position: relative;
-  bottom: 800px;
-  right: 300px;
-}
+  
 .books.img{
     display: inline-block;
     height: auto;
@@ -190,13 +139,6 @@ main{
   font-size: larger;
 }
 
-.three-column-grid2 {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-size: larger;
-}
- 
 #nav-bar:checked~nav{
   display: block;
 }
