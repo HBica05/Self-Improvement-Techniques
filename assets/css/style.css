@@ -23,7 +23,7 @@
   }
   header 
   {
-    background-color: #E0F5CC;
+    background-color: #D5C0AF;
     padding: 20px;
     z-index: 99;
     width: 100%;
@@ -114,9 +114,7 @@ main{
   height: auto;
   width: 50%;
   position: relative;
-
 }
-  
 .books.img{
     display: inline-block;
     height: auto;
@@ -131,10 +129,15 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.three-column-grid2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
 .cover-card{
   color: #000000;
   padding: 20px;
-  background-color: #312F0C;
+  background-color: #462F20;
   color: #fff;
   font-size: larger;
 }
@@ -211,7 +214,7 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #312F0C;
+  background-color: #462F20;
   color: white;
 }
 
