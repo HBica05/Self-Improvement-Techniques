@@ -95,7 +95,10 @@ header a:hover {
   {
     width: 33%;
   }
-  
+  .meditation.img {
+    width: 100%;
+    height: auto;
+  }
 main{
     flex: 1 0 auto;
     margin-top: 800px;
@@ -111,14 +114,14 @@ main{
 
 .meditation.img{
   display: inline-block;
-  height: auto;
-  width: 50%;
   position: relative;
+  height: auto;
+  width: 90%;
 }
 .books.img{
     display: inline-block;
     height: auto;
-    width: 90%;
+    width: 50%;
     position: relative;
     background-attachment: fixed;
     background-position: right;
@@ -129,11 +132,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.three-column-grid2 {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-}
+
 .cover-card{
   color: #000000;
   padding: 20px;
@@ -215,6 +214,7 @@ html {
   background-color: #462F20;
   color: white;
 }
+
 .container {
   padding: 0 16px;
 }
@@ -229,15 +229,26 @@ html {
     display: inline-block;
     width: 50%; 
     height: auto; 
-    max-width: 90%; /* Ensure image does not exceed container width */
-    height: auto; /
+    max-width: 50%;
+    height: auto; 
     position: relative;
     background-attachment: fixed;
     background-position: left;
     margin-top: 10px;
 }
+
+.meditation.img,
+.books.img {
+  max-width: 100%;
+  height: auto;
+}
 @media (max-width: 700px) {
   .three-column-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1400px) {
+  .three-column-grid {
+    grid-template-columns: 2fr;
   }
 }
