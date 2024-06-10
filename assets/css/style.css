@@ -112,14 +112,14 @@ main{
 .meditation.img{
   display: inline-block;
   height: auto;
-  width: 10vw;
+  width: 50vw;
   position: relative;
   
 }
 .books.img{
     display: inline-block;
     height: auto;
-    width: 1vw;
+    width: 50vw;
     position: relative;
      
 }
@@ -194,7 +194,6 @@ html {
   box-sizing: inherit;
 }
 .column {
-  float: center;
   width: 90%;
   padding:20px;
   margin: auto;

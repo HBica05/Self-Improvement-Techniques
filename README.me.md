@@ -11,30 +11,35 @@ Your pocket-sized guide to personal growth and development. Our website is desig
 ## 🚀Navigation Bar
 ![alt text](image.png)
 
-Elegantly positioned at the top of each page, the navigation bar offers intuitive access to essential sections. On desktop screens, the navigation proudly showcases text links for "Home,🏠" More Content,📖" and "About Us,❓" seamlessly aligned to the right for effortless navigation.
+Elegantly positioned at the top of each page, the navigation bar offers intuitive access to essential sections. On desktop screens, the navigation proudly showcases text links for: 
+ - "Home,🏠" 
+ - More Content,📖" 
+ -  "About Us,❓" 
+  -seamlessly aligned to the right for effortless navigation.
 
 ## 🏠Home page
 ![alt text](image-3.png)
 
-It contains an image of a very important quote for us to reflect on.
+- It contains an image of a very important quote by Lao Tzu, for us to reflect on.
 
 ![alt text](image-4.png)
 
-Also contains important content about self-improvement techniques.
+- Also contains important content about self-improvement techniques.
 
 ## ↓Footer
 ![alt text](image-1.png)
 
-It contains an important advice for the people seeking self-development.
+- It contains an important advice for the people seeking self-development.
 
 ## Features left to implement
-I would like to add a webshop to the page to make it easy and fast for the users to enroll on my services. The webshop would contain of different packages to choose from when it comes to Nutrition and Personal Training.
+- I would like to add a contact page and a form, so that users can ask questions and login to their own account.
+- I would also like to add more content and pictures to the website.
 
 ## Unfixed bugs
-No unfixed bugs
+- No unfixed bugs
 
 # Deployment
-The site was created using Gitpod editor and pushed to Github to the remote repository 'Self-improvement-Techniques'.
+The site was created using Gitpod editor and pushed to Github to the remote repository 'Self-Improvement-Techniques'.
 Git commands were used throughout the development to push the code to the remote repository. The following git commands were used:
 
  - git 
@@ -51,6 +56,28 @@ add . to add the files to the staging area before being committed.
 - Once on the Deployments page, select the Create Deployment button.
 - Select Create Deployment. Vercel will build and deploy your commit or branch.
 
+## 🔍Testing
+### Accessibility
+
+- I ran the pages through Lighthouse and confirmed that the colors and fonts are easy to read and that the site is accessible.
+  
+![alt text](image-5.png)
+
+### HTML Home page
+- No errors found when running the code through the [W3C HTML Validator](https://validator.w3.org/nu/#file)
+
+![alt text](image-2.png)
+
+### HTML About page
+
+![alt text](image-6.png)
+
+### CSS
+- No errors found when running the code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+
+![alt text](image-7.png)
+
+
 ## 🧬Cloning of the Repository Code locally
 
 - Go to the Github repository that you want to clone.
@@ -62,6 +89,7 @@ add . to add the files to the staging area before being committed.
 ## 🎥Media
 - The images in the hero section and the content page were taken from [Unsplash](https://unsplash.com/s/photos/meditation).
 - The icons used in the nav bar were taken from [Font Awesome](https://fontawesome.com/).
+- The colours were taken from a colour palette in [Coolors](https://coolors.co/f3ebe2-e6ccb2-e7ccb1-d5c0af-462f20-c79b7f)
 
 ## 🏆Credits
 - A special thanks to my Mentor for the support and answering all my Questions!
