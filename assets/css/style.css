@@ -116,6 +116,9 @@ main{
   position: relative;
   
 }
+.meditation.img{
+  width: 100%;
+}
 .books.img{
     display: inline-block;
     height: auto;
