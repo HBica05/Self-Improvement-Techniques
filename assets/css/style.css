@@ -1,65 +1,148 @@
-*CSS*
-*{
-  padding: 0;
-  margin: 0;
+/* Root Variables */
+:root {
+  --primary-color: #462F20; /* Main background color for cards and some sections */
+  --secondary-color: #D5C0AF; /* Background color for header */
+  --text-color: #252525; /* Main text color */
+  --card-background: #F3EBE2; /* Background color for cards */
+  --footer-font-size: 1.1rem; /* Font size for footer text */
+  --footer-font-style: italic; /* Font style for footer text */
 }
+
  body {
-    background-color: white;
+    background-color: white; /* Background color for the entire page */
     display:flex;
     flex-direction: column;
     font-family: 'Lato' , sans-serif;
+    margin: 0;
   }
+
+  /* Heading Styles */
   h1,h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
   }
+
   h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
   }
-  header 
-  {
+
+  header {
     background-color: #D5C0AF;
     padding: 20px;
-    z-index: 99;
-    width: 100%;
-    display:inline-block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-header a {
+  header a {
   text-decoration: none;
 }
 
-header a:hover {
-  text-decoration: underline; 
+  header a:hover {
+  text-decoration: underline;
 }
-#heading-container {
+
+  #head-title {
   text-align: center;
 }
-#heading-container3 {
-  text-align: center;
+
+/* Navigation Bar Styles */
+.icon-bar {
+  display: flex;
+  justify-content: space-around; /* Distribute space between items */
+  align-items: center;
+  width: 100%; /* Full width */
 }
+
+.icon-bar li {
+  list-style: none; /* Remove bullets from list items */
+}
+
+.icon-bar li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width of list item */
+  font-size: 2rem; /* Font size for icons */
+  padding: 20px; /* Padding around icons */
+}
+
+.icon-bar li a:hover {
+  background-color: #ddd; /* Background color on hover */
+  color: black; /* Text color on hover */
+}
+
+/* Image Styles */
+.motiv-quote {
+  width: 100%; /* Full width */
+  display: block;
+  height: auto; /* Maintain aspect ratio */
+  background-attachment: fixed; /* Fixed background attachment */
+  background-position: center; /* Center background image */
+}
+
+.meditation-img, .books-img {
+  width: 100%; 
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Grid Layout Styles */
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Space between grid items */
+}
+
+.cover-card {
+  padding: 20px; /* Padding inside each card */
+  background-color: var(--primary-color); /* Background color for cards */
+  color: #fff; /* Text color for cards */
+  font-size: larger; /* Font size for card text */
+}
+
+/* Footer Styles */
+footer p {
+  text-align: center; /* Center-align text in footer */
+  text-transform: lowercase; /* Lowercase text */
+  font-style: var(--footer-font-style); /* Font style for footer text */
+  font-size: var(--footer-font-size); /* Font size for footer text */
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+  .three-column-grid {
+    grid-template-columns: 1fr; /* Single column layout on small screens */
+  }
+}
+
+
+
+
+
+/* 
   .wrap {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
+
   .menu {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
   }
+
   .menu ul {
-    padding-inline-start: 0;
+    padding: 0;
   }
+
   .menu li {
-    display: inline-block;
     margin-right: 20px; 
   }
   
@@ -72,9 +155,11 @@ header a:hover {
     text-decoration: underline; 
   }
   
-  .icon-bar li a:hover {
-    background-color: #ddd;
-    color: black;
+  .icon-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
   }
   
   .motiv_quote {
@@ -233,4 +318,4 @@ html {
   .three-column-grid {
     grid-template-columns: 1fr;
   }
-} 
+}  */
