@@ -121,6 +121,12 @@ footer p {
 }
 
 
+@media (max-width: 1400px) {
+  .three-column-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 
