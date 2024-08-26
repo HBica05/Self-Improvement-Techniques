@@ -8,47 +8,47 @@
   --footer-font-style: italic; /* Font style for footer text */
 }
 
- body {
-    background-color: white; /* Background color for the entire page */
-    display:flex;
-    flex-direction: column;
-    font-family: 'Lato' , sans-serif;
-    margin: 0;
-  }
-
-  /* Heading Styles */
-  h1,h2 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-  }
-
-  h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(255, 255, 255);
-  }
-
-  header {
-    background-color: #D5C0AF;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header a {
-  text-decoration: none;
+body {
+  background-color: white; /* Background color for the entire page */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif; /* Font family for body text */
+  margin: 0;
 }
 
-  header a:hover {
-  text-decoration: underline;
+/* Heading Styles */
+h1, h2 {
+  font-family: 'Oswald', sans-serif; /* Font family for headings */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  color: var(--text-color); /* Text color for headings */
 }
 
-  #head-title {
-  text-align: center;
+h3 {
+  font-family: 'Oswald', sans-serif; /* Font family for subheadings */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  color: #fff; /* Text color for subheadings */
+}
+
+header {
+  background-color: var(--secondary-color); /* Header background color */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+header a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+#head-title {
+  text-align: center; /* Center text in header title */
 }
 
 /* Navigation Bar Styles */
@@ -88,25 +88,15 @@ main {
   color: white; /* Text color for sections */
 }
 
-.about-section {
-  background-color: var(--primary-color);
-}
-
-.team-section {
-  background-color: var(--primary-color);
-}
-
 /* Image Styles */
 .motiv-quote {
   width: 100%; /* Full width */
   display: block;
   height: auto; /* Maintain aspect ratio */
-  background-attachment: fixed; /* Fixed background attachment */
-  background-position: center; /* Center background image */
 }
 
 .meditation-img, .books-img {
-  width: 100%; 
+  width: 100%; /* Full width */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -114,6 +104,12 @@ main {
 .three-column-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Space between grid items */
+}
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
   gap: 20px; /* Space between grid items */
 }
 
@@ -126,12 +122,11 @@ main {
 
 /* Footer Styles */
 footer {
-  text-align: center;
-  background-color: var(--secondary-color);
+  text-align: center; /* Center-align text in footer */
+  background-color:#FFE4E1; /* Footer background color */
   padding: 20px;
 }
 
-/* Footer Styles */
 footer p {
   text-align: center; /* Center-align text in footer */
   text-transform: lowercase; /* Lowercase text */
@@ -140,21 +135,12 @@ footer p {
 }
 
 #year {
-  font-size: .9rem;
-} */
+  font-size: .9rem; /* Font size for year */
+}
 
 /* Responsive Styles */
 @media (max-width: 700px) {
-  .three-column-grid {
+  .three-column-grid, .two-column-grid {
     grid-template-columns: 1fr; /* Single column layout on small screens */
   }
 }
-
-@media (max-width: 1400px) {
-  .three-column-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-
