@@ -90,6 +90,9 @@ add . to add the files to the staging area before being committed.
 - The images in the hero section and the content page were taken from [Unsplash](https://unsplash.com/s/photos/meditation).
 - The icons used in the nav bar were taken from [Font Awesome](https://fontawesome.com/).
 - The colours were taken from a colour palette in [Coolors](https://coolors.co/f3ebe2-e6ccb2-e7ccb1-d5c0af-462f20-c79b7f)
+- **[Code Institute learning materials](https://codeinstitute.net/)**: For providing comprehensive learning resources and guidance throughout the development process.
+- **[Github pages]**(): The platform provided seamless deployment and hosting services for the application.
+- Some ideas were taken from this video: (https://youtu.be/PlxWf493en4?si=WUNrHtULHowHcs6d)
 
 ## 🏆Credits
 - A special thanks to my Mentor for the support and answering all my Questions!
