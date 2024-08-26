@@ -12,24 +12,54 @@ Your pocket-sized guide to personal growth and development. Our website is desig
 ![alt text](image.png)
 
 Elegantly positioned at the top of each page, the navigation bar offers intuitive access to essential sections. On desktop screens, the navigation proudly showcases text links for: 
- - "Home,🏠" 
- - More Content,📖" 
- -  "About Us,❓" 
-  -seamlessly aligned to the right for effortless navigation.
+
+ - Home,🏠 : 
+
+  ![alt text](image-8.png)
+
+    - When clicked, it displays the top part of the homepage.
+  
+  ![alt text](image-13.png)
+
+ - More Content,📖:  
+ 
+  
+  ![alt text](image-9.png)
+
+    - When clicked, displays the content section in the homepage.
+  
+  ![alt text](image-10.png)
+
+ -  About Us,❓: 
+   
+  ![alt text](image-11.png)
+ 
+    - When clicked, displays the About page of the Website.
+ 
+  ![alt text](image-12.png)
+
 
 ## 🏠Home page
-![alt text](image-3.png)
-
 - It contains an image of a very important quote by Lao Tzu, for us to reflect on.
 
-![alt text](image-4.png)
+![alt text](image-3.png)
 
-- Also contains important content about self-improvement techniques.
-
-## ↓Footer
+- Also contains important content about self-improvement techniques, and pictures for more visual appeal.
+  
 ![alt text](image-1.png)
 
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+## ↓Footer
+
+![alt text](image-14.png)
+
 - It contains an important advice for the people seeking self-development.
+- It contains copyright information.
 
 ## Features left to implement
 - I would like to add a contact page and a form, so that users can ask questions and login to their own account.
