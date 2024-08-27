@@ -37,7 +37,7 @@ The navigation bar is elegantly positioned at the top of each page, providing in
 
   - Directs to the content section of the homepage featuring self-improvement techniques.
   
-  ![alt text](image-10.png)
+  ![alt text](image-21.png)
 
  -  About Us,❓: 
    
@@ -74,9 +74,9 @@ The navigation bar is elegantly positioned at the top of each page, providing in
 
   * About page:
   
-  - Community Introduction: Welcomes users to the ElevateU community, outlining its mission and values.
+    - Community Introduction: Welcomes users to the ElevateU community, outlining its mission and values.
 
- ![alt text](image-18.png)
+![alt text](image-18.png)
 
   - Team Member Information: Highlights Haadiyah Faruk Bica, the developer, with a brief introduction.
   
