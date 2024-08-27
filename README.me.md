@@ -14,7 +14,7 @@ Live link: [Self-Improvement-Techniques](https://hbica05.github.io/Self-Improvem
 * **Mindfulness**: Practices to cultivate mindfulness and reduce stress.
 * **Goal Setting**: Strategies to set and achieve your personal and professional goals.
 * **And More**: Discover additional resources tailored to personal growth.
-  
+
 - Whether you're striving for personal growth, seeking to enhance your well-being, or simply looking for inspiration to lead a more fulfilling life, the ElevateU community is here to support you every step of the way.
 
 ## 🚀Navigation Bar
@@ -207,7 +207,9 @@ To clone the repository locally:
   
 - Learning Resources: [Code Institute learning materials](https://codeinstitute.net/) for comprehensive learning materials and guidance.
   
-- Deployment Platform: [Github pages]() for seamless deployment and hosting.
+- [Inshot](https://www.inshot.com/) : Used to edit screenshots showing responsiveness of the Website. 
+  
+- Deployment Platform: Github pages for seamless deployment and hosting.
   
 - Inspiration: Ideas were influenced by this video: [this video](https://youtu.be/PlxWf493en4?si=WUNrHtULHowHcs6d)
 

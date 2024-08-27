@@ -93,6 +93,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two equal columns */
   gap: 20px; /* Space between grid items */
+  padding: 0 20px; /* Add horizontal padding to prevent touching the sides */
 }
 
 .cover-card {
