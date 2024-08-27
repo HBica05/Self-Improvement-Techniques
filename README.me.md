@@ -39,33 +39,37 @@ The navigation bar is elegantly positioned at the top of each page, providing in
   ![alt text](image-11.png)
  
     - Takes you to the About page where you can learn more about us and our mission.
+    -  Highlights Haadiyah Faruk Bica, the developer, with a brief introduction.
  
   ![alt text](image-12.png)
 
 
 ## 🏠Home page
-  ### Main Features
+  ### ⭐ Main Features
 
 - It contains an inspiring image with a quote by Lao Tzu for reflection.
   
 ![alt text](image-3.png)
 
 
-  ### Layout
-  - Three-Column Grid: Features cards for different self-improvement topics.
+  ### 🗺️ Layout
+  * Home Page:
+    - Three-Column Grid: Features cards for different self-improvement topics.
 
-  
   ![alt text](image-1.png)
 
-  - Two-Column Grid: Contains information about mindfulness meditation and associated visuals.
+    - Two-Column Grid: Contains information about mindfulness meditation and associated visuals.
   
   ![alt text](image-4.png)
 
-  - Also contains important content about self-improvement techniques, enhanced with visual elements.
+    - Also contains important content about self-improvement techniques, enhanced with visual elements.
 
   ![alt text](image-16.png)
 
   ![alt text](image-17.png)
+
+  * About page:
+    -
 
 ## ↓Footer
 
@@ -76,7 +80,8 @@ The footer includes:
 - Essential advice for individuals seeking self-development. 
   
 - Displays the Copyright year.
-
+  - The year in the footer updates automatically using JavaScript.
+  
 ## Features Left to implement
 1. *Contact Page* : A dedicated page with a form for users to ask questions and get in touch.
 
@@ -84,10 +89,32 @@ The footer includes:
 
 3. *Additional Content*: More resources, guides, and images to enrich the website.
   
+## 🐞 Bugs encountered
+- During the development of this website, problems such as media queries not working for all screensizes were encountered. These were fixed with the help of accessing various resources and a lot of research.
+
+- Adding images was also a problem, at the end I discovered that the file path to the image was not properly written in HTML code.
+  
+- The same with the Favicon. The Favicon was not appearing due to wrong file path stated in the HTML files.  
+  
 ## Unfixed bugs
 - No unfixed bugs reported at this time.
 
-## Version Control
+## Usage
+1. Viewing the Site:
+
+* Open index.html in a web browser to view the home page.
+* Open about.html to view the about page.
+  
+2. Customizing Content:
+
+* Edit index.html and about.html to update text, images, or other elements as needed.
+* Modify style.css to change the appearance and layout of the website.
+
+3. Updating JavaScript:
+
+* The JavaScript in the HTML files dynamically updates the copyright year. Adjust this script if necessary for other dynamic content.
+
+## 🗂️ Version Control
 The following Git commands were used throughout the development:
 
  - `git add .`: Adds files to the staging area before committing.
@@ -96,7 +123,7 @@ The following Git commands were used throughout the development:
  
 - `git push`: Pushes committed changes to the remote repository on GitHub.
   
-## Deployment to Github Pages
+## 🚀 Deployment to Github Pages
 * This site was deployed to Github pages as follows:
   
   1. Navigate to the Settings tab of the GitHub repository.
@@ -104,8 +131,7 @@ The following Git commands were used throughout the development:
   3. Choose the main branch and click Save.
   4. A link to the live website was provided.
   
-  Live link:[ElevateU on GitHub Pages] () 
-
+  Live link: [Self-Improvement-Techniques]() on GitHub Pages 
 
 ## 🔍Testing
 ### Accessibility
@@ -128,7 +154,10 @@ The following Git commands were used throughout the development:
 
 ![alt text](image-7.png)
 
-
+## 🌍 Compatibility
+- This website is Mobile-friendly with responsive design for seamless use on smartphones and tablets.
+- I tested in Microsoft Edge, Chrome, Firefox, Safari and all were supported.
+  
 ## 🧬Cloning of the Repository Code locally
 To clone the repository locally:
 
@@ -138,7 +167,7 @@ To clone the repository locally:
 4. Open your IDE and paste the copied git url into the terminal.
 5. The project will be created as a local clone.
 
-## 🎥Media
+## 🎥Media & 🏆Credits
 - Images: The hero section and the content page images were sourced from [Unsplash](https://unsplash.com/s/photos/meditation).
   
 - Icons: Navigation bar icons are from [Font Awesome](https://fontawesome.com/).
@@ -151,8 +180,9 @@ To clone the repository locally:
   
 - Inspiration: Ideas were influenced by this video: [this video](https://youtu.be/PlxWf493en4?si=WUNrHtULHowHcs6d)
 
-## 🏆Credits
-- A special thanks to my Mentor for their support and guidance throughout the project.
+- Coding guidance: Some code queries were answered through reading other people's queries in [StackOverflow](https://stackoverflow.com/)
 
-- Gratitude to the Slack community for assistance in troubleshooting and resolving issues
+- A special thanks to my Mentor **Spencer Barriball** for their support and guidance throughout the project.
+
+- Gratitude to the Slack community for assistance in troubleshooting and resolving issues.
 
