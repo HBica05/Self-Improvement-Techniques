@@ -209,6 +209,8 @@ To clone the repository locally:
   
 - [Inshot](https://www.inshot.com/) : Used to edit screenshots showing responsiveness of the Website. 
   
+- [Media Genesis](https://responsivedesignchecker.com/) : Used to test for responsiveness of the Website.
+
 - Deployment Platform: Github pages for seamless deployment and hosting.
   
 - Inspiration: Ideas were influenced by this video: [this video](https://youtu.be/PlxWf493en4?si=WUNrHtULHowHcs6d)
