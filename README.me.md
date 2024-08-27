@@ -2,6 +2,10 @@
 ---
 Welcome to ElevateU, your go-to destination for practical self-improvement techniques and resources. Our website is dedicated to empowering individuals on their journey toward personal growth and development. We offer simple yet effective tools and resources to help you become the best version of yourself.
 
+![alt text](image-20.png)
+
+Live link: [Self-Improvement-Techniques](https://hbica05.github.io/Self-Improvement-Techniques/) on GitHub Pages. 
+
 ## ⚙️Features:
 📚 Comprehensive Guides
 - Dive into our library of comprehensive guides covering various aspects of self-improvement, including productivity, mindfulness, goal setting, and more.
@@ -51,7 +55,6 @@ The navigation bar is elegantly positioned at the top of each page, providing in
 - It contains an inspiring image with a quote by Lao Tzu for reflection.
   
 ![alt text](image-3.png)
-
 
   ### 🗺️ Layout
   * Home Page:
@@ -139,7 +142,6 @@ The following Git commands were used throughout the development:
   3. Choose the main branch and click Save.
   4. A link to the live website was provided.
   
-  Live link: [Self-Improvement-Techniques]() on GitHub Pages 
 
 ## 🔍Testing
 ### Accessibility
