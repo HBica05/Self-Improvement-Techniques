@@ -64,7 +64,7 @@ The navigation bar is elegantly positioned at the top of each page, providing in
 
     - Two-Column Grid: Contains information about mindfulness meditation and associated visuals.
   
-  ![alt text](image-4.png)
+  ![alt text](image-21.png)
 
     - Also contains important content about self-improvement techniques, enhanced with visual elements.
 
@@ -80,7 +80,7 @@ The navigation bar is elegantly positioned at the top of each page, providing in
 
   - Team Member Information: Highlights Haadiyah Faruk Bica, the developer, with a brief introduction.
   
-  ![alt text](image-19.png)
+![alt text](image-22.png)
 
 ## ↓Footer
 
