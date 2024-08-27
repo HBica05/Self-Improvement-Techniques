@@ -150,7 +150,7 @@ The following Git commands were used throughout the development:
   
   ![alt text](image-5.png)
 
-- I tested each navigation link as follows:
+- I tested each navigation link as follows (From the `Home page`):
 
   - The home favicon
    
@@ -169,7 +169,10 @@ The following Git commands were used throughout the development:
     ![alt text](image-11.png)
 
     when clicked redirects to the About page.
-    
+
+- From the `About page`, I clicked on the Home navigation link and it redirected to the correct home page section.
+- I clicked on the book favicon and it redirected to the correct homepage section.
+  
 ### HTML Validation
 * Home Page: No errors found using the [W3C HTML Validator](https://validator.w3.org/nu/#file)
 
