@@ -23,6 +23,7 @@ The navigation bar is elegantly positioned at the top of each page, providing in
   ![alt text](image-8.png)
 
     - When clicked, it displays the top part of the homepage.
+    	- Contains the title , and three navigation links.
   
   ![alt text](image-13.png)
 
@@ -69,7 +70,14 @@ The navigation bar is elegantly positioned at the top of each page, providing in
   ![alt text](image-17.png)
 
   * About page:
-    -
+  
+  - Community Introduction: Welcomes users to the ElevateU community, outlining its mission and values.
+
+ ![alt text](image-18.png)
+
+  - Team Member Information: Highlights Haadiyah Faruk Bica, the developer, with a brief introduction.
+  
+  ![alt text](image-19.png)
 
 ## ↓Footer
 
