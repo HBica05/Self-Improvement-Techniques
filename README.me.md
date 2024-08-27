@@ -90,7 +90,7 @@ The footer includes:
 - Displays the Copyright year.
   - The year in the footer updates automatically using JavaScript.
   
-## Features Left to implement
+## Future Features to Implement
 1. *Contact Page* : A dedicated page with a form for users to ask questions and get in touch.
 
 2. *User Accounts*: Functionality for users to log in and manage their accounts.
@@ -146,8 +146,28 @@ The following Git commands were used throughout the development:
 
 - The pages were tested using Lighthouse to ensure that colors and fonts are easy to read and the site is accessible.
   
-![alt text](image-5.png)
+  ![alt text](image-5.png)
 
+- I tested each navigation link as follows:
+
+  - The home favicon
+   
+    ![alt text](image-8.png)
+
+   navigation link redirects to the top section of the homepage.
+
+  - The book favicon  
+  
+    ![alt text](image-9.png)
+
+     when clicked redirects to the section with more content of the homepage.
+
+  - The question mark favicon 
+
+    ![alt text](image-11.png)
+
+    when clicked redirects to the About page.
+    
 ### HTML Validation
 * Home Page: No errors found using the [W3C HTML Validator](https://validator.w3.org/nu/#file)
 
@@ -164,6 +184,7 @@ The following Git commands were used throughout the development:
 
 ## 🌍 Compatibility
 - This website is Mobile-friendly with responsive design for seamless use on smartphones and tablets.
+
 - I tested in Microsoft Edge, Chrome, Firefox, Safari and all were supported.
   
 ## 🧬Cloning of the Repository Code locally

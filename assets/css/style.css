@@ -8,6 +8,7 @@
   --footer-font-style: italic; /* Font style for footer text */
 }
 
+/* Global Styles */
 body {
   background-color: white; /* Background color for the entire page */
   display: flex;
@@ -16,21 +17,7 @@ body {
   margin: 0;
 }
 
-/* Heading Styles */
-h1, h2 {
-  font-family: 'Oswald', sans-serif; /* Font family for headings */
-  text-transform: uppercase; /* Uppercase text */
-  letter-spacing: 2px; /* Spacing between letters */
-  color: var(--text-color); /* Text color for headings */
-}
-
-h3 {
-  font-family: 'Oswald', sans-serif; /* Font family for subheadings */
-  text-transform: uppercase; /* Uppercase text */
-  letter-spacing: 2px; /* Spacing between letters */
-  color: #fff; /* Text color for subheadings */
-}
-
+/* Header Styles */
 header {
   background-color: var(--secondary-color); /* Header background color */
   padding: 20px;
@@ -51,7 +38,6 @@ header a:hover {
   text-align: center; /* Center text in header title */
 }
 
-/* Navigation Bar Styles */
 .icon-bar {
   display: flex;
   justify-content: center; /* Center navigation items */
@@ -76,31 +62,27 @@ header a:hover {
   color: black; /* Text color on hover */
 }
 
+/* Heading Styles */
+h1, h2 {
+  font-family: 'Oswald', sans-serif; /* Font family for headings */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  color: var(--text-color); /* Text color for headings */
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif; /* Font family for subheadings */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  color: #fff; /* Text color for subheadings */
+}
+
 /* Main Content Styles */
 main {
   flex: 1 0 auto;
 }
 
-.about-section, .team-section {
-  padding: 50px;
-  text-align: center; /* Center text */
-  background-color: var(--primary-color); /* Background color for sections */
-  color: white; /* Text color for sections */
-}
-
-/* Image Styles */
-.motiv-quote {
-  width: 100%; /* Full width */
-  display: block;
-  height: auto; /* Maintain aspect ratio */
-}
-
-.meditation-img, .books-img {
-  width: 100%; /* Full width */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* Grid Layout Styles */
+/* Specific Section Styles */
 .three-column-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three equal columns */
@@ -120,10 +102,36 @@ main {
   font-size: larger; /* Font size for card text */
 }
 
+.motiv-quote {
+  width: 100%; /* Full width */
+  display: block;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.meditation-img, .books-img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.about-section, .team-section {
+  padding: 50px;
+  text-align: center; /* Center text */
+  background-color: var(--primary-color); /* Background color for sections */
+  color: white; /* Text color for sections */
+}
+
+/* Styling specific h1,h2,h3 headings */
+.child-heading {
+  color: white;
+}
+
+.child-two-column-grid {
+  color: black;
+}
 /* Footer Styles */
 footer {
   text-align: center; /* Center-align text in footer */
-  background-color:#FFE4E1; /* Footer background color */
+  background-color: #FFE4E1; /* Footer background color */
   padding: 20px;
 }
 
